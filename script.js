@@ -11,7 +11,7 @@ let clock = ()=>{
  let minutes = new Date().getMinutes();
  let seconds = new Date().getSeconds();
 
- let ampm = h >= 12 ? "AM":"PM"
+ let ampm = h >= 12 ? "PM":"AM"
 
  if(hours>12){
   hours = hours - 12;
